@@ -1,1036 +1,384 @@
 <script>
-    import Header from "../components/Header.svelte"
+    import Footer from "../components/Footer.svelte";
+import Header from "../components/Header.svelte";
+
 </script>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>MadiFax - Online Doctor Appointment System HTML Template</title>
-    <link rel="icon" type="image/png" href="https://html.narzotech.com/madifax/images/favicone.png">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/all.min.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/venobox.min.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/custom_spacing.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/select2.min.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/slick.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/animate.css">
-
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/style.css">
-    <link rel="stylesheet" href="https://html.narzotech.com/madifax/css/responsive.css">
-</head>
-
-<body>
-
-    <!--============================
-        TOPBAR START
-    ==============================-->
-    <!-- <section class="topbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 col-lg-9 d-none d-md-block">
-                    <ul class="topbar_link d-flex flex-wrap">
-                        <li><a href="callto:123456789"><i class="fas fa-phone-alt"></i>+1 (700) 230-0035</a></li>
-                        <li><a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i>support@gmail.com</a></li>
-                        <li>
-                            <p><i class="fas fa-map-marker-alt"></i>2767 Sunrise Street, NY 1002, USA</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xl-3 col-lg-3 d-md-none d-lg-block">
-                    <ul class="topbar_icon d-flex flex-wrap">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--============================
-        TOPBAR END
-    ==============================-->
-
 
 <Header/>
 
-    <!--============================
-        BANNER START
-    ==============================-->
-    <section class="banner" style="background: url(https://html.narzotech.com/madifax/images/banner_bg.jpg);">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xxl-5 col-md-9 col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1s">
-                    <div class="banner_text">
-                        <h5>Welcome to MadiFax</h5>
-                        <h1>We Are Committed To Your Health</h1>
-                        <p>It is a established fact that a reader will be distracted by the content of a page when
-                            looking at this layout.</p>
-                        <a href="doctor.html" class="common_btn">meet a doctor</a>
-                        <ul class="banner_counter d-flex flex-wrap">
-                            <li>
-                                <h3><span class="counter">355</span>k+ </h3>
-                                <p>Recovered Patients</p>
-                            </li>
-                            <li>
-                                <h3><span class="counter">98</span>%</h3>
-                                <p>Good Review</p>
-                            </li>
-                            <li>
-                                <h3><span class="counter">120</span>+</h3>
-                                <p>Popular Doctors</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-lg-6 col-xl-6 wow fadeInRight" data-wow-duration="1s">
-                    <div class="banner_img">
-                        <div class="img">
-                            <img src="https://html.narzotech.com/madifax/images/banner_img.png" alt="img" class="img-fluid w-100">
-                        </div>
-                        <div class="react">
-                            <img src="https://html.narzotech.com/madifax/images/react.png" alt="react img" class="img-fluid w-100">
-                        </div>
-                        <div class="video_call">
-                            <img src="https://html.narzotech.com/madifax/images/Video-call.png" alt="video img" class="img-fluid w-100">
-                        </div>
-                        <div class="call">
-                            <img src="https://html.narzotech.com/madifax/images/Call.png" alt="call img" class="img-fluid w-100">
-                        </div>
-                        <div class="review">
-                            <img src="https://html.narzotech.com/madifax/images/Review.png" alt="review img" class="img-fluid w-100">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        BANNER END
-    ==============================-->
-
-
-    <!--============================
-        ABOUT START
-    ==============================-->
-    <section class="about pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-sm-9  col-lg-5 col-md-7 wow fadeInLeft" data-wow-duration="1s">
-                    <div class="about_img">
-                        <div class="about_img_1">
-                            <img src="https://html.narzotech.com/madifax/images/about-img1.jpg" alt="about img" class="img-fluid w-100">
-                        </div>
-                        <div class="about_img_2">
-                            <img src="https://html.narzotech.com/madifax/images/about_img2.jpg" alt="about img" class="img-fluid w-100">
-                            <a class="play_btn venobox" data-autoplay="true" data-vbtype="video"
-                                href="https://youtu.be/nqye02H_H6I">
-                                <i class="fas fa-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-sm-12 col-lg-7  wow fadeInRight" data-wow-duration="1s">
-                    <div class="common_heading">
-                        <h5>about us</h5>
-                        <h2>The Great Place of Medical Hospital Center.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Quis ipsum susp endisse ultrices gravida tempor incididu
-                            ut labore et dolore magna aliqua. Quis ipsum susp endisse ultrices gravida.</p>
-                    </div>
-
-                    <ul class="about_iteam d-flex flex-wrap">
-                        <li>Ambulance Services</li>
-                        <li>Oxizen on Wheel</li>
-                        <li>Pharmacy on Clinic</li>
-                        <li>On duty Doctors</li>
-                        <li>24/7 Medical Emergency</li>
-                    </ul>
-                    <a href="https://html.narzotech.com/madifax/about.html" class="common_btn">Discover More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        ABOUT END
-    ==============================-->
-
-
-    <!--============================
-        SERVICE START
-    ==============================-->
-    <section class="remove-all service" style="background: url(https://html.narzotech.com/madifax/images/service_bg.jpg);">
-           <section class="blog pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_15">
-                        <h5>Latest News</h5>
-                        <h2>Our Services</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category">Medical</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-1.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">Telehealth Services Are Ready To Help Your
-                                Family</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur ipsum.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category blue">Hospital</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-2.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">Doccure – Making your clinic painless
-                                visit</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur amet.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category red">Doctor</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-3.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">What are the benefits of Online Doctor
-                                Booking</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    </section>
-    <!--============================
-        SERVICE END
-    ==============================-->
-
-
-    <!--============================
-        FAQ START
-    ==============================-->
-    <section class="faq pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_25">
-                        <h5>FAQ</h5>
-                        <h2>Frequently Asked Questions</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-7 col-lg-6 wow fadeInLeft" data-wow-duration="1s">
-                    <div class="faq_accordion accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="true"
-                                    aria-controls="flush-collapseOne">
-                                    What Happens To My Sample Once I Have Provided It?</button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do isus mods
-                                    mpor incididunt ut labore et dolore magna aliqua. Ut en onim ad minim on
-                                    adipiscing elit veniam.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Where Can I Go To Provide A Sample For Testing? </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do isus mods
-                                    mpor incididunt ut labore et dolore magna aliqua. Ut en onim ad minim on
-                                    adipiscing elit veniam.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    What Will Laboratory Testing Cost Me? </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do isus mods
-                                    mpor incididunt ut labore et dolore magna aliqua. Ut en onim ad minim on
-                                    adipiscing elit veniam.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    Can I Make Appointments by Phone? </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do isus mods
-                                    mpor incididunt ut labore et dolore magna aliqua. Ut en onim ad minim on
-                                    adipiscing elit veniam.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                    aria-controls="flush-collapseFive">
-                                    Using Innovative Technology </button>
-                            </h2>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do isus mods
-                                    mpor incididunt ut labore et dolore magna aliqua. Ut en onim ad minim on
-                                    adipiscing elit veniam.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-5 col-lg-6 wow fadeInRight" data-wow-duration="1s">
-                    <div class="faq_img">
-                        <img src="https://html.narzotech.com/madifax/images/faq-img.jpg" alt="faq" class="img-fluid w-100">
-                        <a class="play_btn venobox" data-autoplay="true" data-vbtype="video"
-                            href="https://www.youtube.com/watch?v=i_glB8n4KLE&list=PPSV">
-                            <i class="fas fa-play" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        FAQ END
-    ==============================-->
-
-
-    <!--============================
-        PROCESS START
-    ==============================-->
-    <section class="process pt_100 xs_pt_70 pb_95 xs_pb_65" style="background: url(https://html.narzotech.com/madifax/images/work_bg.jpg);">
-        <div class="container process_shape">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_25">
-                        <h5>How We Work</h5>
-                        <h2>Our Working Process</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="work_process_area">
-                <div class="row">
-                    <div class="col-xl-3 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s">
-                        <div class="single_process">
-                            <span class="process_number num1">01</span>
-                            <h4>fill the form</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem quia officia quaerat
-                                ipsam!</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s">
-                        <div class="single_process">
-                            <span class="process_number num2">02</span>
-                            <h4>Book an Appointment</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem quia officia quaerat
-                                ipsam!</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s">
-                        <div class="single_process">
-                            <span class="process_number num3">03</span>
-                            <h4>Check-Ups</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem quia officia quaerat
-                                ipsam!</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s">
-                        <div class="single_process">
-                            <span class="process_number num4">04</span>
-                            <h4>Get Reports</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem quia officia
-                                quaerat
-                                ipsam!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        PROCESS END
-    ==============================-->
-
-
-    <!--============================
-        APPOINMENT START
-    ==============================-->
-    <section class="appoinment pt_185 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="appoinment_bg" style="background: url(https://html.narzotech.com/madifax/images/appointment_bg.jpg);">
-                <div class="appoinment_overlay">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-7 wow fadeInLeft" data-wow-duration="1s">
-                            <div class="appoinment_form">
-                                <div class="common_heading mb_30">
-                                    <h5>Appointment</h5>
-                                    <h2>Apply For Free Now</h2>
-                                </div>
-                                <form action="#">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <input type="text" placeholder="Patient Name*">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <input type="email" placeholder="Email*">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <input type="email" placeholder="Email Address*">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <select class="select_2">
-                                                    <option value="">Select Department</option>
-                                                    <option value="">Cardiology</option>
-                                                    <option value="">Ophthalmology</option>
-                                                    <option value="">Pediatric</option>
-                                                    <option value="">Radiology</option>
-                                                    <option value="">Urology</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <select class="select_2">
-                                                    <option value="">Select Doctor</option>
-                                                    <option value="">Dr. Hasan Mahamud</option>
-                                                    <option value="">Dr. Moinuddin</option>
-                                                    <option value="">Dr. Afroja Akter</option>
-                                                    <option value="">Dr. Mamunur Rasid</option>
-                                                    <option value="">Dr. Abdus Salam</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <input type="date">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <select class="reservation_input select_2">
-                                                    <option value="">Select Time</option>
-                                                    <option value="">10.00 am to 11.00 am</option>
-                                                    <option value="">11.00 am to 12.00 pm</option>
-                                                    <option value="">3.00 pm to 4.00 pm</option>
-                                                    <option value="">4.00 pm to 5.00 pm</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="appoinment_form_input">
-                                                <button class="common_btn">book
-                                                    appoinment</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="appoinment_img">
-                                <img src="https://html.narzotech.com/madifax/images/appoinment_img.png" alt="appointment" class="img-fluid w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        APPOINMENT END
-    ==============================-->
-
-
-    <!--============================
-        HELPLINE START
-    ==============================-->
-    <section class="helpline pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xxl-6 col-lg-6 col-xl-6 wow fadeInLeft" data-wow-duration="1s">
-                    <div class="common_heading">
-                        <h5>Emergency helpline</h5>
-                        <h2>Need Emergency Contact</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Quis ipsum susp endisse ultrices gravida tempor incididu
-                            ut labore.</p>
-                    </div>
-                    <ul class="helpline_iteam">
-                        <li>24/7 Contact Our Hospital.</li>
-                        <li>24 hours Open Our Hospital.</li>
-                        <li>Emergency Contact Our Phone Number.</li>
-                    </ul>
-
-                    <ul class="d-flex flex-wrap helpline_contact">
-                        <li>
-                            <span><i class="fas fa-phone-alt"></i></span>
-                            <div class="helpline_contact_text">
-                                <p>Phone Number</p>
-                                <a href="callto:123456789">+880 13 2525 065</a>
-                            </div>
-                        </li>
-                        <li>
-                            <span><i class="fas fa-comment-alt-lines"></i></span>
-                            <div class="helpline_contact_text">
-                                <p>Quick Your Email</p>
-                                <a href="mailto:example@gmail.com">help.info@gmail.com</a>
-                            </div>
-
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="col-xxl-5 col-lg-6 col-xl-6 wow fadeInRight" data-wow-duration="1s">
-                    <div class="helpline_img">
-                        <img src="https://html.narzotech.com/madifax/images/helpline_img.png" alt="help img" class="img-fluid w-100">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        HELPLINE END
-    ==============================-->
-
-
-    <!--============================
-        TEAM START
-    ==============================-->
-    <section class="team pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_25">
-                        <h5>our team</h5>
-                        <h2>Meet Our expert doctor</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_team">
-                        <div class="team_img">
-                            <img src="https://html.narzotech.com/madifax/images/team-1.jpg" alt="team" class="img-fluid w-100">
-                            <div class="team_overlay">
-                                <ul class="team_icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_designation">
-                            <h6>Dr. Jon Miller</h6>
-                            <p>Neurology</p>
-                            <span>MBBS, FCPS, FRCS</span>
-                            <a href="doctor_details.html"><i class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_team">
-                        <div class="team_img">
-                            <img src="https://html.narzotech.com/madifax/images/team-2.jpg" alt="team" class="img-fluid w-100">
-                            <div class="team_overlay">
-                                <ul class="team_icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_designation">
-                            <h6>Dr. Jon Miller</h6>
-                            <p>Cardiology</p>
-                            <span>MBBS, FCPS, FRCS</span>
-                            <a href="doctor_details.html"><i class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_team">
-                        <div class="team_img">
-                            <img src="https://html.narzotech.com/madifax/images/team-3.jpg" alt="team" class="img-fluid w-100">
-                            <div class="team_overlay">
-                                <ul class="team_icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_designation">
-                            <h6>Dr. Jon Miller</h6>
-                            <p>Ophthalmology</p>
-                            <span>MBBS, FCPS, FRCS</span>
-                            <a href="doctor_details.html"><i class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_team">
-                        <div class="team_img">
-                            <img src="https://html.narzotech.com/madifax/images/team-4.jpg" alt="team" class="img-fluid w-100">
-                            <div class="team_overlay">
-                                <ul class="team_icon">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team_designation">
-                            <h6>Dr. Jon Miller</h6>
-                            <p>Pediatric</p>
-                            <span>MBBS, FCPS, FRCS</span>
-                            <a href="doctor_details.html"><i class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center mt_40">
-                    <a class="common_btn" href="doctor.html">view more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        TEAM END
-    ==============================-->
-
-
-    <!--============================
-        REVIEW START
-    ==============================-->
-    <section class="review pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_45">
-                        <h5>Testimonials</h5>
-                        <h2>What Our Client Says</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row review_slider">
-                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_review">
-                        <p class="review_icon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p>“Lorem ipsum dolor sit amet, consectetur on pisc
-                            ing elit, sed do eiusmod tempor incidids is magna
-                            aliqua established fact”</p>
-                        <div class="reviewer_info">
-                            <div class="img">
-                                <img src="https://html.narzotech.com/madifax/images/review-1.png" alt="reviewer" class="img-fluid w-100">
-                            </div>
-                            <h3>Jenny Wilson</h3>
-                            <span>Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_review">
-                        <p class="review_icon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p>“Lorem ipsum dolor sit amet, consectetur on pisc
-                            ing elit, sed do eiusmod tempor incidids is magna
-                            aliqua established fact”</p>
-                        <div class="reviewer_info">
-                            <div class="img">
-                                <img src="https://html.narzotech.com/madifax/images/review-2.png" alt="reviewer" class="img-fluid w-100">
-                            </div>
-                            <h3>Vlack Marvin</h3>
-                            <span>Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_review">
-                        <p class="review_icon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p>“Lorem ipsum dolor sit amet, consectetur on pisc
-                            ing elit, sed do eiusmod tempor incidids is magna
-                            aliqua established fact”</p>
-                        <div class="reviewer_info">
-                            <div class="img">
-                                <img src="https://html.narzotech.com/madifax/images/review-3.png" alt="reviewer" class="img-fluid w-100">
-                            </div>
-                            <h3>Robert Floxder</h3>
-                            <span>Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_review">
-                        <p class="review_icon">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p>“Lorem ipsum dolor sit amet, consectetur on pisc
-                            ing elit, sed do eiusmod tempor incidids is magna
-                            aliqua established fact”</p>
-                        <div class="reviewer_info">
-                            <div class="img">
-                                <img src="https://html.narzotech.com/images/review-2.png" alt="reviewer" class="img-fluid w-100">
-                            </div>
-                            <h3>Vlack Marvin</h3>
-                            <span>Customer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        REVIEW END
-    ==============================-->
-
-
-    <!--============================
-        BLOG START
-    ==============================-->
-    <section class="blog pt_100 xs_pt_70 pb_100 xs_pb_70">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="common_heading center_heading mb_15">
-                        <h5>Latest News</h5>
-                        <h2>Latest Post & Articles</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category">Medical</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-1.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">Telehealth Services Are Ready To Help Your
-                                Family</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur ipsum.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category blue">Hospital</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-2.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">Doccure – Making your clinic painless
-                                visit</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur amet.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
-                    <div class="single_blog">
-                        <div class="blog_img">
-                            <a href="#" class="category red">Doctor</a>
-                            <img src="https://html.narzotech.com/madifax/images/blog-3.jpg" alt="blog img" class=" img-fluid w-100">
-                        </div>
-                        <div class="blog_text">
-                            <ul class="d-flex flex-wrap blog_date">
-                                <li><i class="fas fa-user"></i>Admin</li>
-                                <li><i class="fas fa-calendar-alt"></i>22 june 2023</li>
-                            </ul>
-                            <a href="blog_details.html" class="blog_heading">What are the benefits of Online Doctor
-                                Booking</a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing. Veritatis consectetur.</p>
-                            <div class="blog_text_icon">
-                                <a class="blog_link" href="blog_details.html">read more <i
-                                        class="far fa-long-arrow-right"></i></a>
-                                <ul class="d-flex flex-wrap blog_react">
-                                    <li><i class="fas fa-comment-lines"></i>5</li>
-                                    <li><i class="fas fa-heart"></i>20</li>
-                                    <li><i class="fas fa-share-alt"></i>15</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--============================
-        BLOG END
-    ==============================-->
-
-
-    <!--============================
-        FOOTER START
-    ==============================-->
-    <footer class="mt_60" style="background: url(https://html.narzotech.com/madifax/images/footer_bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 wow fadeInUp" data-wow-duration="1s">
-                    <div class="subscription">
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-xxl-6 col-lg-6 col-xl-7">
-                                <div class="subscribe_text">
-                                    <h2>Subscribe for the Exclusive Updates!</h2>
-                                </div>
-                            </div>
-                            <div class="col-xxl-5 col-lg-6 col-xl-5">
-                                <form action="#" class="subscrib_form">
-                                    <input type="text" placeholder="your Email Address">
-                                    <button class="common_btn subscrib_btn">Subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt_10">
-                <div class="col-lg-3 col-sm-9 col-md-6">
-                    <div class="footer_left">
-                        <a href="index.html" class="tf_footer_logo">
-                            <img src="https://html.narzotech.com/madifax/images/footer_logo.png" alt="MediFax" class="img-fluid w-100">
-                        </a>
-                        <p>There are to popular belie Lorem is Ipsum
-                            is not simply random.</p>
-                        <div class="footer_mail">
-                            <span>Hello to :</span>
-                            <a href="#">support@gmail.com</a>
-                        </div>
-                        <div class="tf_footer_icon d-flex flex-wrap align-items-center">
-                            <span>Follow :</span>
-                            <ul class="d-flex flex-wrap">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
-                    <div class="quick_link">
-                        <h5>Company</h5>
-                        <ul>
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="about.html">about us</a></li>
-                            <li><a href="service.html">our service</a></li>
-                            <li><a href="team.html">our team</a></li>
-                            <li><a href="contact.html">contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-md-3">
-                    <div class="quick_link">
-                        <h5>Important</h5>
-                        <ul>
-                            <li><a href="#">Our Process</a></li>
-                            <li><a href="#">Appointment</a></li>
-                            <li><a href="faq.html">faq</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms_condition.html">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-md-3">
-                    <div class="quick_link">
-                        <h5>Quick Link</h5>
-                        <ul>
-                            <li><a href="#">Why Choose Us</a></li>
-                            <li><a href="priceing.html">Pricing Plan</a></li>
-                            <li><a href="blog.html">News & Articles</a></li>
-                            <li><a href="sing_up.html">login</a></li>
-                            <li><a href="#">Subscribe</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 order-md-2">
-                    <div class="address">
-                        <h5>Official Info</h5>
-                        <div class="tf_footer_address">
-                            <p>
-                                <i class="fas fa-map-marker-alt"></i>
-                                2767 Sunrise Street, NY 1002, USA
-                            </p>
-                            <a href="#">
-                                <i class="fas fa-envelope"></i>
-                                company@gmail.com
-                            </a>
-                            <a href="#">
-                                <i class="fas fa-phone-alt"></i>
-                                +965548547564
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt_70 xs_mt_45 sm_margin ">
-                <div class="col-xl-12">
-                    <div class="copyright d-flex flex-wrap justify-content-between">
-                        <p>2023 MadiFax. All rights reserved.</p>
-                        <ul class="d-flex flex-wrap">
-                            <li><a href="terms_condition.html">Terms and conditions</a></li>
-                            <li><a href="#">Cookies</a></li>
-                            <li><a href="privacy.html">Privacy policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <!--============================
-        FOOTER END
-    ==============================-->
-
-
-    <!--=========================
-        SCROLL BUTTON START
-    ===========================-->
-    <div class="scroll_btn">
-        <span><i class="fas fa-arrow-alt-up"></i></span>
+  <div class="bg-white font-[sans-serif] flex max-lg:flex-col px-4 my-8 gap-12 max-w-[1400px] mx-auto">
+    <div>
+      <h2 class="text-gray-800 text-4xl font-extrabold mb-6">Discover Our Exclusive Features</h2>
+      <p class="text-gray-600 text-sm leading-relaxed">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit. Eu eu quis anim aute.</p>
     </div>
-    <!--==========================
-        SCROLL BUTTON END
-    ===========================-->
 
+    <div class="grid md:grid-cols-2 gap-8 max-md:max-w-lg mx-auto">
+      <div class="text-left bg-blue-50 rounded-lg shadow p-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-12 inline-block bg-white p-3 rounded-full" viewBox="0 0 32 32">
+          <path d="M28.068 12h-.128a.934.934 0 0 1-.864-.6.924.924 0 0 1 .2-1.01l.091-.091a2.938 2.938 0 0 0 0-4.147l-1.511-1.51a2.935 2.935 0 0 0-4.146 0l-.091.091A.956.956 0 0 1 20 4.061v-.129A2.935 2.935 0 0 0 17.068 1h-2.136A2.935 2.935 0 0 0 12 3.932v.129a.956.956 0 0 1-1.614.668l-.086-.091a2.935 2.935 0 0 0-4.146 0l-1.516 1.51a2.938 2.938 0 0 0 0 4.147l.091.091a.935.935 0 0 1 .185 1.035.924.924 0 0 1-.854.579h-.128A2.935 2.935 0 0 0 1 14.932v2.136A2.935 2.935 0 0 0 3.932 20h.128a.934.934 0 0 1 .864.6.924.924 0 0 1-.2 1.01l-.091.091a2.938 2.938 0 0 0 0 4.147l1.51 1.509a2.934 2.934 0 0 0 4.147 0l.091-.091a.936.936 0 0 1 1.035-.185.922.922 0 0 1 .579.853v.129A2.935 2.935 0 0 0 14.932 31h2.136A2.935 2.935 0 0 0 20 28.068v-.129a.956.956 0 0 1 1.614-.668l.091.091a2.935 2.935 0 0 0 4.146 0l1.511-1.509a2.938 2.938 0 0 0 0-4.147l-.091-.091a.935.935 0 0 1-.185-1.035.924.924 0 0 1 .854-.58h.128A2.935 2.935 0 0 0 31 17.068v-2.136A2.935 2.935 0 0 0 28.068 12ZM29 17.068a.933.933 0 0 1-.932.932h-.128a2.956 2.956 0 0 0-2.083 5.028l.09.091a.934.934 0 0 1 0 1.319l-1.511 1.509a.932.932 0 0 1-1.318 0l-.09-.091A2.957 2.957 0 0 0 18 27.939v.129a.933.933 0 0 1-.932.932h-2.136a.933.933 0 0 1-.932-.932v-.129a2.951 2.951 0 0 0-5.028-2.082l-.091.091a.934.934 0 0 1-1.318 0l-1.51-1.509a.934.934 0 0 1 0-1.319l.091-.091A2.956 2.956 0 0 0 4.06 18h-.128A.933.933 0 0 1 3 17.068v-2.136A.933.933 0 0 1 3.932 14h.128a2.956 2.956 0 0 0 2.083-5.028l-.09-.091a.933.933 0 0 1 0-1.318l1.51-1.511a.932.932 0 0 1 1.318 0l.09.091A2.957 2.957 0 0 0 14 4.061v-.129A.933.933 0 0 1 14.932 3h2.136a.933.933 0 0 1 .932.932v.129a2.956 2.956 0 0 0 5.028 2.082l.091-.091a.932.932 0 0 1 1.318 0l1.51 1.511a.933.933 0 0 1 0 1.318l-.091.091A2.956 2.956 0 0 0 27.94 14h.128a.933.933 0 0 1 .932.932Z" data-original="#000000" />
+          <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
+        </svg>
+        <h3 class="text-gray-800 text-xl font-semibold mt-6 mb-3">Customization</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit.</p>
+        <button type="button" class="text-gray-800 border border-gray-300 px-4 py-2 rounded-lg font-bold flex items-center text-sm mt-6 hover:bg-white">
+          Learn more <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" class="rotate-90 ml-1.5"><path fill="#333" d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z" data-original="#000000" paint-order="fill markers stroke"></path></svg>
+        </button>
+      </div>
 
-</body>
+      <div class="text-left bg-blue-50 rounded-lg shadow p-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 inline-block bg-white p-3 rounded-full" viewBox="0 0 682.667 682.667">
+          <defs>
+            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+              <path d="M0 512h512V0H0Z" data-original="#000000" />
+            </clipPath>
+          </defs>
+          <g fill="none" class="stroke-blue-600" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="40" clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+            <path d="M256 492 60 410.623v-98.925C60 183.674 137.469 68.38 256 20c118.53 48.38 196 163.674 196 291.698v98.925z" data-original="#000000" />
+            <path d="M178 271.894 233.894 216 334 316.105" data-original="#000000" />
+          </g>
+        </svg>
+        <h3 class="text-gray-800 text-xl font-semibold mt-6 mb-3">Security</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit.</p>
+        <button type="button" class="text-gray-800 border border-gray-300 px-4 py-2 rounded-lg font-bold flex items-center text-sm mt-6 hover:bg-white">
+          Learn more <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" class="rotate-90 ml-1.5"><path fill="#333" d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z" data-original="#000000" paint-order="fill markers stroke"></path></svg>
+        </button>
+      </div>
 
-</html>
+      <div class="text-left bg-blue-50 rounded-lg shadow p-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-12 inline-block bg-white p-3 rounded-full" viewBox="0 0 512.001 512.001">
+          <path d="M271.029 0c-33.091 0-61 27.909-61 61s27.909 61 61 61 60-27.909 60-61-26.909-61-60-61zm66.592 122c-16.485 18.279-40.096 30-66.592 30-26.496 0-51.107-11.721-67.592-30-14.392 15.959-23.408 36.866-23.408 60v15c0 8.291 6.709 15 15 15h151c8.291 0 15-6.709 15-15v-15c0-23.134-9.016-44.041-23.408-60zM144.946 460.404 68.505 307.149c-7.381-14.799-25.345-20.834-40.162-13.493l-19.979 9.897c-7.439 3.689-10.466 12.73-6.753 20.156l90 180c3.701 7.423 12.704 10.377 20.083 6.738l19.722-9.771c14.875-7.368 20.938-25.417 13.53-40.272zM499.73 247.7c-12.301-9-29.401-7.2-39.6 3.9l-82 100.8c-5.7 6-16.5 9.6-22.2 9.6h-69.901c-8.401 0-15-6.599-15-15s6.599-15 15-15h60c16.5 0 30-13.5 30-30s-13.5-30-30-30h-78.6c-7.476 0-11.204-4.741-17.1-9.901-23.209-20.885-57.949-30.947-93.119-22.795-19.528 4.526-32.697 12.415-46.053 22.993l-.445-.361-21.696 19.094L174.28 452h171.749c28.2 0 55.201-13.5 72.001-36l87.999-126c9.9-13.201 7.2-32.399-6.299-42.3z" data-original="#000000" />
+        </svg>
+        <h3 class="text-gray-800 text-xl font-semibold mt-6 mb-3">Support</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit.</p>
+        <button type="button" class="text-gray-800 border border-gray-300 px-4 py-2 rounded-lg font-bold flex items-center text-sm mt-6 hover:bg-white">
+          Learn more <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" class="rotate-90 ml-1.5"><path fill="#333" d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z" data-original="#000000" paint-order="fill markers stroke"></path></svg>
+        </button>
+      </div>
+
+      <div class="text-left bg-blue-50 rounded-lg shadow p-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-12 inline-block bg-white p-3 rounded-full" viewBox="0 0 24 24">
+          <g fill-rule="evenodd" clip-rule="evenodd">
+            <path d="M17.03 8.97a.75.75 0 0 1 0 1.06l-4.2 4.2a.75.75 0 0 1-1.154-.114l-1.093-1.639L8.03 15.03a.75.75 0 0 1-1.06-1.06l3.2-3.2a.75.75 0 0 1 1.154.114l1.093 1.639L15.97 8.97a.75.75 0 0 1 1.06 0z" data-original="#000000" />
+            <path d="M13.75 9.5a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 .75.75v2a.75.75 0 0 1-1.5 0v-1.25H14.5a.75.75 0 0 1-.75-.75z" data-original="#000000" />
+            <path d="M3.095 3.095C4.429 1.76 6.426 1.25 9 1.25h6c2.574 0 4.57.51 5.905 1.845C22.24 4.429 22.75 6.426 22.75 9v6c0 2.574-.51 4.57-1.845 5.905C19.571 22.24 17.574 22.75 15 22.75H9c-2.574 0-4.57-.51-5.905-1.845C1.76 19.571 1.25 17.574 1.25 15V9c0-2.574.51-4.57 1.845-5.905zm1.06 1.06C3.24 5.071 2.75 6.574 2.75 9v6c0 2.426.49 3.93 1.405 4.845.916.915 2.419 1.405 4.845 1.405h6c2.426 0 3.93-.49 4.845-1.405.915-.916 1.405-2.419 1.405-4.845V9c0-2.426-.49-3.93-1.405-4.845C18.929 3.24 17.426 2.75 15 2.75H9c-2.426 0-3.93.49-4.845 1.405z" data-original="#000000" />
+          </g>
+        </svg>
+        <h3 class="text-gray-800 text-xl font-semibold mt-6 mb-3">Performance</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut reprehenderit.</p>
+        <button type="button" class="text-gray-800 border border-gray-300 px-4 py-2 rounded-lg font-bold flex items-center text-sm mt-6 hover:bg-white">
+          Learn more <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" class="rotate-90 ml-1.5"><path fill="#333" d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z" data-original="#000000" paint-order="fill markers stroke"></path></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="font-[sans-serif]">
+    <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-gray-800 text-4xl font-extrabold">Meet our team</h2>
+        <p class="text-gray-800 text-sm mt-4 leading-relaxed">Meet our team of professionals to serve you.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 text-center mt-16 max-w-5xl max-lg:max-w-3xl max-md:max-w-xl mx-auto">
+        <div>
+            <img src="https://readymadeui.com/team-1.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">John Doe</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-2.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Mark Adair</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-3.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Simon Konecki</h4>
+                <p class="text-gray-800 text-xs mt-1">Web Designer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-4.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Sophia</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Developer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-5.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Alen</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Developer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-6.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Eleanor</h4>
+                <p class="text-gray-800 text-xs mt-1">Web Designer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-1.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">John Doe</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://readymadeui.com/team-2.webp" class="w-32 h-32 rounded-full inline-block" />
+
+            <div class="py-4">
+                <h4 class="text-gray-800 text-base font-bold">Mark Adair</h4>
+                <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                <div class="space-x-4 mt-4">
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                            <path
+                                d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                data-original="#010002" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                            <path
+                                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                data-original="#03a9f4" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                            <path
+                                d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                data-original="#0077b5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-gradient-to-b from-[#2e0249] to-[#680871] py-16 px-6 font-[sans-serif]">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-white md:text-5xl text-4xl font-extrabold mb-6">Join Our Exclusive Newsletter</h2>
+      <p class="text-xl text-gray-300">Be part of our elite community. Get VIP access to curated content, early product releases, and special promotions.</p>
+
+      <div class="bg-white shadow-lg rounded-lg p-8 mt-12 flex flex-col md:flex-row items-center justify-center">
+        <input type="email" placeholder="Enter your email" class="w-full md:w-96 bg-transparent border-b-2 border-[#a91079] py-3 px-4 text-[#2e0249] text-base focus:outline-none placeholder-[#a91079] placeholder-opacity-70" />
+        <button class="max-md:mt-6 md:ml-4 bg-[#a91079] hover:bg-[#680871] text-white font-semibold py-3 px-6 rounded hover:shadow-md hover:transform hover:scale-105 focus:outline-none">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </div>
+<Footer/>

@@ -3,4 +3,6 @@
     import FooterMother from "../../components/Footer.svelte";
 </script>
 <HeaderMother />
+
+  
 <FooterMother/>

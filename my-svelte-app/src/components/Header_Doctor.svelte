@@ -44,9 +44,9 @@
 
   </script>
   
-  <header class="flex justify-center mt-8">
-    <div class="w-[80%] max-w-[1300px] bg-white flex items-center justify-center gap-6 px-10 py-4 relative rounded-full border border-pink-300 shadow-md">
-       <!-- <a href="javascript:void(0)">
+  <header class='flex border-b mt-5 border-1 bg-white font-sans min-h-[70px] tracking-wide relative z-50'>
+    <div class='w-full flex flex-wrap items-center justify-center gap-6 px-10 py-3 relative'>
+      <!-- <a href="javascript:void(0)">
         <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
       </a> -->
   
@@ -69,13 +69,13 @@
               <img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
             </a>
           </li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoExplore} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Explore</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoConsultation} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Consultation</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoResources} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Resources</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoJournal} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Journal</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoForums} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Forums</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoFitness} href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Fitness</a></li>
-          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoAccount}  href='javascript:void(0)' class='hover:text-pink-300 text-black font-bold text-sm block'>Account</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoExplore} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Explore</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoConsultation} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Consultation</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoResources} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Resources</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoJournal} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Journal</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoForums} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Forums</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoFitness} href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Fitness</a></li>
+          <li class='max-lg:border-b max-lg:px-3 max-lg:py-2'><a on:click={gotoAccount} class='hover:text-[#007bff] text-[#007bff] font-bold text-sm block'>Account</a></li>
           <!-- <li class='group text-[14px] max-lg:border-b max-lg:px-3 max-lg:py-2 relative'>
             <a href='javascript:void(0)' class='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block'>
               Agencies
@@ -104,7 +104,11 @@
           </svg>
         </button>
       </div>
-     
+      <button type="button" on:click={clearAllCookies} 
+      class="ml-auto py-2 px-7 text-sm font-semibold tracking-wider rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none h-full">
+      Log Out
+    </button>
+
     </div>
 
   </header>

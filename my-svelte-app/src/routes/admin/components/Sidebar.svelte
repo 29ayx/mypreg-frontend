@@ -1,10 +1,11 @@
-<nav class="bg-white shadow-lg h-screen fixed top-0 left-0 min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
+<nav class="bg-white shadow-lg h-screen fixed top-0 left-0 w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
+
     <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-[160px]' />
     </a>
 
     <ul class="mt-6">
       <li>
-        <a href="javascript:void(0)"
+        <a href="/admin/dashboard/"
           class="text-black hover:text-blue-600 text-sm flex items-center hover:bg-blue-50 rounded px-4 py-3 transition-all">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
             viewBox="0 0 512 512">
@@ -21,7 +22,7 @@
       <h6 class="text-blue-600 text-sm font-bold px-4">Information</h6>
       <ul class="mt-3">
         <li>
-          <a href="javascript:void(0)"
+          <a href="/admin/dashboard/users"
             class="text-black hover:text-blue-600 text-sm flex items-center hover:bg-blue-50 rounded px-4 py-3 transition-all">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
               viewBox="0 0 512 512">
@@ -33,7 +34,7 @@
           </a>
         </li>
         <li>
-          <a href="javascript:void(0)"
+          <a href="/admin/dashboard/posts"
             class="text-black hover:text-blue-600 text-sm flex items-center hover:bg-blue-50 rounded px-4 py-3 transition-all">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-4"
               viewBox="0 0 24 24">
